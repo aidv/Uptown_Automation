@@ -1,0 +1,11 @@
+DEVICE=C:\DOS\SETVER.EXE
+DEVICE=C:\dos\HIMEM.SYS
+DOS=HIGH
+FILES=50
+BUFFERS=20
+LASTDRIVE=Z
+REM ========LANGINST.EXE========DO NOT MODIFY========
+shell = c:\command.com /p
+country=001, 850, c:\dos\country.sys
+device=c:\dos\display.sys con=(EGA,437,3)
+REM ========LANGINST.EXE========DO NOT MODIFY========

@@ -1,0 +1,12 @@
+PROMPT $P$G
+PATH C:\DOS;c:\
+LOADHIGH c:\mouse\mouse NOVCI
+C:\DOS\smartdrv c 512
+set CONTROL_PANELS=1
+rem set REVERSE_CHANNELS=1
+REM set LYNX=2
+set SYNC_PORT=0
+rem set 990=1
+set MIDI_NUM=2
+set D1=200
+cd \mix

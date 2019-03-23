@@ -1,0 +1,17 @@
+c:\windows\smartdrv.exe
+@ECHO OFF
+PROMPT $p$g
+set path=c:\dos;c:\windows;C:\MOUSE
+set temp=c:\windows\temp
+REM
+REM ======LANGINST.EXE======DO NOT MODIFY======
+set comspec=c:\command.com
+set path=c:\;c:\dos;c:\windows;c:\intl
+nlsfunc
+mode con cp prepare=((850 852 863) c:\dos\ega.cpi)
+mode con cp select=850
+keyb us, 850, c:\dos\keyboard.sys
+CD WFWINST
+INSTALL /COR2
+REM ======LANGINST.EXE======DO NOT MODIFY======
+

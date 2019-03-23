@@ -1,0 +1,20 @@
+SYSTEST.DOC -- Documentaion file for SYSTEST.EXE
+
+
+The SYSTEST.EXE program is used for testing and maintenance of all Uptown
+automation systems.
+
+USING SYSTEST
+
+SYSTEST uses the same DOS environment variables that the MIX program
+uses. If the computer has been set up to run the MIX program, SYSTEST will
+also run. If you want to check the environment, type SET from the DOS
+prompt.
+
+2000    none
+990     990=1
+PP1     WMODE=1
+Trident TRIDENT=1
+
+To start the program, exit the MIX program (if it is running) and
+type SYSTEST from the DOS prompt.
